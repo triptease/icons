@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-
-import availableIcons from './availableIcons';
+import IconList from './IconList';
 
 class App extends Component {
   static style = {
-    fontFamily: 'Triptease Icons',
     fontSize: '32px',
-    textAlign: 'center'
+    maxWidth: '1200px',
+    margin: '0 auto'
   };
 
   render() {
     return (
       <div style={App.style}>
-        {availableIcons.map((icon, key) => <div key={key}>beer</div>)}
+        <IconList />
       </div>
     );
   }

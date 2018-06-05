@@ -1,12 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 @font-face {
   font-family: 'Triptease Icons';
-  src: url('/fonts/icomoon.woff') format('woff'),
-    url('/fonts/icomoon.eot') format('eot'),
-    url('/fonts/icomoon.ttf') format('ttf');
+  src: url('/fonts/triptease.woff') format('woff'),
+    url('/fonts/triptease.eot') format('eot'),
+    url('/fonts/triptease.ttf') format('ttf');
 }
