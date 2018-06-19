@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 
-import availableIcons from './availableIcons';
+import availableIcons from './svgs/index';
 import LabeledIcon from './LabeledIcon';
 
 class IconList extends PureComponent {
@@ -10,7 +10,8 @@ class IconList extends PureComponent {
 
   static style = {
     display: 'grid',
-    gridTemplateColumns: '[col-start] 0.3fr [col-start] 0.7fr',
+    gridTemplateColumns:
+      '[col-start] 0.25fr [col-start] 0.25fr [col-start] 0.5fr',
     gridGap: '10px',
     textAlign: 'center'
   };
