@@ -2,5 +2,6 @@
   font-family: 'Triptease Icons';
   src: url('/fonts/triptease.woff') format('woff'),
     url('/fonts/triptease.eot') format('eot'),
-    url('/fonts/triptease.ttf') format('ttf');
+    url('/fonts/triptease.ttf') format('ttf'),
+    url('/fonts/triptease.svg#TripteaseIcons') format('svg');
 }
