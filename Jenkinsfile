@@ -27,4 +27,4 @@ stage name: 'build'
 	pipeline.build(projectMap, 'build', 'yarn')
 
 stage name: 'deploy to production'
-	pipeline.uploadToCDN(projectMap, 'production', 'static.triptease.io/icons')
+	pipeline.uploadToCDN(projectMap, '', 'static.triptease.io/icons')
