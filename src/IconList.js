@@ -13,6 +13,7 @@ class IconList extends PureComponent {
     gridTemplateColumns:
       '[col-start] 0.25fr [col-start] 0.25fr [col-start] 0.5fr',
     gridGap: '10px',
+    alignItems: 'center',
     textAlign: 'center'
   };
 
@@ -20,7 +21,9 @@ class IconList extends PureComponent {
     const { icons } = this.props;
     return (
       <div style={IconList.style}>
-        {icons.map((name, key) => <LabeledIcon name={name} key={key} />)}
+        {icons.map((ligatures, key) => (
+          <LabeledIcon ligatures={ligatures} key={key} />
+        ))}
       </div>
     );
   }

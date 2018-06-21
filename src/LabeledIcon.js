@@ -12,12 +12,14 @@ class LabeledIcon extends PureComponent {
   };
 
   render() {
-    const { name } = this.props;
+    const { ligatures } = this.props;
     return (
       <Fragment>
-        <div style={LabeledIcon.fontIconStyle}>{name}</div>
-        <div style={LabeledIcon.fontIconStyleWithBackground}>{name}</div>
-        <div>{name}</div>
+        <div style={LabeledIcon.fontIconStyle}>{ligatures[0]}</div>
+        <div style={LabeledIcon.fontIconStyleWithBackground}>
+          {ligatures[0]}
+        </div>
+        <div>{ligatures.join(', ')}</div>
       </Fragment>
     );
   }
