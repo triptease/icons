@@ -11,7 +11,7 @@ class IconList extends PureComponent {
   static style = {
     display: 'grid',
     gridTemplateColumns:
-      '[col-start] 0.25fr [col-start] 0.25fr [col-start] 0.5fr',
+      '[col-start] 0.15fr [col-start] 0.15fr [col-start] 0.15fr [col-start] 0.55fr',
     gridGap: '10px',
     alignItems: 'center',
     textAlign: 'center'

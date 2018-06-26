@@ -19,6 +19,9 @@ class LabeledIcon extends PureComponent {
         <div style={LabeledIcon.fontIconStyleWithBackground}>
           {ligatures[0]}
         </div>
+        <svg>
+          <use href={`fonts/triptease.svg#${ligatures[0]}`} />
+        </svg>
         <div>{ligatures.join(', ')}</div>
       </Fragment>
     );
